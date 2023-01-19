@@ -249,7 +249,7 @@ describe ('Data Manipulation - Instance and Static Methods', function () {
 });
 
 
-describe ('Class Interactions - End to End Testing', function () {
+describe ('Class Interactions - Submitting a Review', function () {
 
     it('tester can submit review for valid vehicle', function () {
 
