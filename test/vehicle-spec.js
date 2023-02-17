@@ -194,7 +194,7 @@ describe ('Data Manipulation - Instance and Static Methods', function () {
         expect(vehicle1.reviews).to.include(review1, review3);
 
         expect(tester1.reviews).to.have.length(2);
-        expect(vehicle1.reviews).to.include(review1, review4);
+        expect(tester1.reviews).to.include(review1, review4);
     });
 
     it('should filter an arbitrary number of reviews by star rating', function () {
