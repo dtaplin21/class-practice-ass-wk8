@@ -164,13 +164,13 @@ describe ('Updating Data and Handling Errors', function () {
 
 describe ('Data Manipulation - Instance and Static Methods', function () {
 
-    it('should print a summary of a vehicle\'s details', function () {
+    it('should return a summary of a vehicle\'s details', function () {
 
         let vehicle1 = new Vehicle("Toyota Prius", 2005, 23000);
-        expect(vehicle1.printDetails()).to.equal("The 2005 Toyota Prius costs $23000 and has 0 reviews.");
+        expect(vehicle1.getDetails()).to.equal("The 2005 Toyota Prius costs $23000 and has 0 reviews.");
 
         let vehicle2 = new Vehicle("Trek 520", 2023, 1829);
-        expect(vehicle2.printDetails()).to.equal("The 2023 Trek 520 costs $1829 and has 0 reviews.");
+        expect(vehicle2.getDetails()).to.equal("The 2023 Trek 520 costs $1829 and has 0 reviews.");
     });
 
     it('can add new review to tester and vehicle', function () {
