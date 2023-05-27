@@ -7,4 +7,4 @@ class Vehicle {
     }
 }
 
-module.exports = vehicle
+module.exports = Vehicle

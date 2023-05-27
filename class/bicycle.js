@@ -1,8 +1,8 @@
 let Vehicle = require("./vehicle")
 
-class bicycle extends vehicle {
+class bicycle extends Vehicle {
     concstructor(style, frameSize, tireSize) {
-       super(modelName, year, price)
+       Super(modelName, year, price)
        this.style = style;
        this.frameSize = frameSize;
        this.tiresize = tireSize;
