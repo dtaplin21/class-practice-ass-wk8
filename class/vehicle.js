@@ -27,6 +27,14 @@ class Vehicle {
         this.price = price;
     }
    }
+
+   getDetails() {
+     return `The ${this.year} ${this.modelName} costs ${this.price} and has ${this.reviews.length} reviews`
+   }
+
+   findReviewByTester(name) {
+      return this.reviews.find((review) => review.tester.name === name )
+   }
 }
 
 module.exports = Vehicle

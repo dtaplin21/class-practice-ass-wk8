@@ -1,4 +1,4 @@
-let Vehicle = require("./vehicle")
+let Vehicle = require("./vehicle.js")
 
 class bicycle extends Vehicle {
     concstructor(style, frameSize, tireSize) {
